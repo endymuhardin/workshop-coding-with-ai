@@ -1,6 +1,3 @@
-![](assets/artivisi-logo.svg)
-
----
 
 ## 1. Tren Coding dengan AI (2024 - 2025)
 
@@ -180,19 +177,46 @@
 
 ---
 
-### I. Ringkasan Kontribusi AI dalam SDLC
+### I. Ringkasan Kontribusi AI dalam SDLC (Bagian 1)
 
 | Tahap Development | Kontribusi AI |
 | :---------------- | :------------ |
-| A. Requirement & Test | Mengubah ide menjadi user stories & use cases, membuat test cases. |
-| B. Desain Aplikasi | Merekomendasikan arsitektur & teknologi, membuat skema database. |
-| C. Desain Implementasi | Mengidentifikasi kelas, atribut, relasi, memvisualisasikan interaksi komponen. |
-| D. Coding dengan AI | Membuat/memodifikasi kode, menjalankan tes & debugging, refactoring. |
-| E. Testing dengan AI | Membuat automated test (unit, integration, functional), test data generation, defect detection. |
-| F. CI/CD dengan AI | Membuat script CI/CD, optimasi pipeline, troubleshooting. |
-| G. Infrastructure as Code (IaC) dengan AI | Membuat script IaC, validasi & optimasi konfigurasi, manajemen perubahan. |
-| H. DevSecOps dengan AI | Integrasi keamanan dini, vulnerability scanning, threat detection & response, compliance & governance, keamanan IaC. |
+| A. Requirement & Test | Mengubah ide ke user stories & test cases. |
+| B. Desain Aplikasi | Rekomendasi arsitektur & teknologi, skema database. |
 
+---
+
+### J. Ringkasan Kontribusi AI dalam SDLC (Bagian 2)
+
+| Tahap Development | Kontribusi AI |
+| :---------------- | :------------ |
+| C. Desain Implementasi | Identifikasi kelas, atribut, relasi, visualisasi interaksi. |
+| D. Coding dengan AI | Membuat/modifikasi kode, tes & debugging, refactoring. |
+
+---
+
+### K. Ringkasan Kontribusi AI dalam SDLC (Bagian 3)
+
+| Tahap Development | Kontribusi AI |
+| :---------------- | :------------ |
+| E. Testing dengan AI | Generasi automated test (unit, integrasi, fungsional), data uji, deteksi cacat. |
+| F. CI/CD dengan AI | Generasi script CI/CD, optimasi pipeline, troubleshooting. |
+
+---
+
+### L. Ringkasan Kontribusi AI dalam SDLC (Bagian 4)
+
+| Tahap Development | Kontribusi AI |
+| :---------------- | :------------ |
+| G. Infrastructure as Code (IaC) dengan AI | Generasi script IaC, validasi & optimasi konfigurasi, manajemen perubahan. |
+
+---
+
+### M. Ringkasan Kontribusi AI dalam SDLC (Bagian 5)
+
+| Tahap Development | Kontribusi AI |
+| :---------------- | :------------ |
+| H. DevSecOps dengan AI | Integrasi keamanan dini, scanning kerentanan, deteksi ancaman, kepatuhan, keamanan IaC. |
 
 ---
 
@@ -228,6 +252,4 @@
 
 ---
 
-## Terima Kasih & Diskusi
-
-![ ](assets/artivisi-logo.svg)
+## Sesi Diskusi
