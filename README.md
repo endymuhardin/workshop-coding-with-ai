@@ -15,7 +15,7 @@ The presentation is written in Markdown (`presentasi_workshop_ai.md`) and conver
 To regenerate the presentation after modifying `presentasi_workshop_ai.md`, run the following command from the root of the project directory:
 
 ```bash
-docker run --rm -v "$(pwd):/data" -w /data/slide-presentasi pandoc/core presentasi_workshop_ai.md -t revealjs -s -o index.html --metadata title="Workshop AI Development" -V theme=white
+docker run --rm -v "$(pwd):/data" -w /data/docs pandoc/core presentasi_workshop_ai.md -t revealjs -s -o index.html --metadata title="Workshop AI Development" -V theme=white
 ```
 
-This command will create/update the `index.html` file in the `slide-presentasi` directory. You can then open this file in your web browser to view the presentation.
+This command will create/update the `index.html` file in the `docs` directory. You can then open this file in your web browser to view the presentation.
