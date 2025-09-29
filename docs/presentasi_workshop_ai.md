@@ -113,6 +113,89 @@
 
 ---
 
+### D. Coding dengan AI (CLI Assistant)
+
+*   **Peran AI:**
+    *   Menerima instruksi dari developer.
+    *   Membuat/memodifikasi kode.
+    *   Menjalankan tes & debugging.
+    *   Melakukan refactoring.
+*   **Peran Developer:**
+    *   Memberikan instruksi yang jelas.
+    *   Mereview & memverifikasi hasil kerja AI.
+    *   Membuat keputusan arsitektur & desain tingkat tinggi.
+
+---
+
+### E. Testing dengan AI
+
+*   **Automated Test Generation:**
+    *   **Unit Test:** AI membuat tes untuk fungsi/metode individual.
+    *   **Integration Test:** AI merancang tes untuk interaksi antar komponen.
+    *   **Functional Test:** AI menghasilkan skenario tes end-to-end berdasarkan spesifikasi.
+*   **Test Data Generation:**
+    *   AI membuat data uji yang realistis dan beragam.
+*   **Defect Detection & Reporting:**
+    *   AI membantu mengidentifikasi potensi cacat & menghasilkan laporan tes.
+
+---
+
+### F. CI/CD dengan AI
+
+*   **Script Generation:**
+    *   AI membuat script CI/CD untuk platform seperti GitLab CI, GitHub Actions, Jenkins, dll.
+    *   Mengkonfigurasi pipeline untuk build, test, deploy.
+*   **Optimasi Pipeline:**
+    *   AI menganalisis & merekomendasikan optimasi untuk efisiensi pipeline.
+*   **Troubleshooting:**
+    *   AI membantu mendiagnosis kegagalan CI/CD & menyarankan perbaikan.
+
+---
+
+### G. Infrastructure as Code (IaC) dengan AI
+
+*   **Generasi Konfigurasi:**
+    *   AI membuat script IaC (Terraform, Ansible, CloudFormation) dari deskripsi high-level.
+*   **Validasi & Optimasi:**
+    *   AI memvalidasi konfigurasi IaC untuk kepatuhan & keamanan.
+    *   Merekomendasikan optimasi biaya & performa.
+*   **Manajemen Perubahan:**
+    *   AI membantu mengelola perubahan infrastruktur & mencegah *drift*.
+
+---
+
+### H. DevSecOps dengan AI
+
+*   **Integrasi Keamanan Dini:**
+    *   AI mengintegrasikan praktik keamanan ke setiap tahap SDLC (Shift-Left Security).
+*   **Vulnerability Scanning Otomatis:**
+    *   AI mengidentifikasi kerentanan dalam kode, dependensi, dan konfigurasi secara otomatis.
+*   **Threat Detection & Response:**
+    *   AI mendeteksi anomali & potensi ancaman keamanan secara real-time dalam pipeline CI/CD dan produksi.
+    *   Mengotomatisasi respons terhadap insiden keamanan.
+*   **Compliance & Governance:**
+    *   AI memastikan kepatuhan terhadap standar keamanan & regulasi dengan audit otomatis.
+*   **Keamanan IaC:**
+    *   AI memvalidasi konfigurasi Infrastructure as Code (IaC) untuk celah keamanan.
+
+---
+
+### I. Ringkasan Kontribusi AI dalam SDLC
+
+| Tahap Development | Kontribusi AI |
+| :---------------- | :------------ |
+| A. Requirement & Test | Mengubah ide menjadi user stories & use cases, membuat test cases. |
+| B. Desain Aplikasi | Merekomendasikan arsitektur & teknologi, membuat skema database. |
+| C. Desain Implementasi | Mengidentifikasi kelas, atribut, relasi, memvisualisasikan interaksi komponen. |
+| D. Coding dengan AI | Membuat/memodifikasi kode, menjalankan tes & debugging, refactoring. |
+| E. Testing dengan AI | Membuat automated test (unit, integration, functional), test data generation, defect detection. |
+| F. CI/CD dengan AI | Membuat script CI/CD, optimasi pipeline, troubleshooting. |
+| G. Infrastructure as Code (IaC) dengan AI | Membuat script IaC, validasi & optimasi konfigurasi, manajemen perubahan. |
+| H. DevSecOps dengan AI | Integrasi keamanan dini, vulnerability scanning, threat detection & response, compliance & governance, keamanan IaC. |
+
+
+---
+
 ## 3. Tahapan Migrasi
 
 ---
