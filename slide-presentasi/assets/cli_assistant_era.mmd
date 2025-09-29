@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant User
+    participant CLI as CLI Assistant
+    participant Files as Project Files
+    participant Tools as External Tools (Shell, Git, etc.)
+
+    User->>CLI: High-level Command (e.g., "Implement feature X")
+    activate CLI
+    CLI->>CLI: Analyze Command & Plan
+    CLI->>Files: Read/Write Code
+    CLI->>Tools: Execute Shell Command (e.g., `git status`)
+    activate Tools
+    Tools-->>CLI: Return Output
+    deactivate Tools
+    CLI->>CLI: Process Output & Refine Plan
+    CLI->>Files: Modify Code (iterative)
+    CLI-->>User: Report Progress/Ask for Clarification
+    User->>CLI: Feedback/Confirmation
+    CLI->>CLI: Finalize Task
+    CLI-->>User: Task Completed
+    deactivate CLI

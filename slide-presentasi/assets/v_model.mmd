@@ -1,0 +1,13 @@
+graph LR
+    subgraph Development Phases
+        Req[Requirement Analysis] --> SysD[System Design] --> ArchD[Architectural Design] --> ModD[Module Design]
+    end
+
+    subgraph Testing Phases
+        UT[Unit Testing] --> IT[Integration Testing] --> ST[System Testing] --> AT[Acceptance Testing]
+    end
+
+    ModD -- Verified by --> UT
+    ArchD -- Verified by --> IT
+    SysD -- Verified by --> ST
+    Req -- Verified by --> AT

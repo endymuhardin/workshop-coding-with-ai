@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant User
+    participant WebLLM as Web LLM Interface
+    participant IDE
+
+    User->>WebLLM: Input Prompt (e.g., "Generate code for X")
+    activate WebLLM
+    WebLLM->>WebLLM: Process Request
+    WebLLM-->>User: Display Generated Code/Command
+    deactivate WebLLM
+    User->>User: Copy Code/Command
+    User->>IDE: Paste Code/Command
+    activate IDE
+    IDE->>IDE: Manual Debugging/Integration
+    deactivate IDE

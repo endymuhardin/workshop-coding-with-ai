@@ -1,0 +1,47 @@
+sequenceDiagram
+    participant IDE as IDE Client
+    participant LLM as Large Language Model
+    participant MCPS as MCP Server
+    participant Tools as External Tools (FS, DB, API)
+    participant Runtime as Runtime/Execution Env
+
+    IDE->>LLM: User Request (e.g., "Generate code for X")
+    activate LLM
+    LLM->>MCPS: Request Context (e.g., "Get current file content")
+    activate MCPS
+    MCPS->>Tools: Access File System / DB / API
+    activate Tools
+    Tools-->>MCPS: Return Context Data
+    deactivate Tools
+    MCPS-->>LLM: Return Context Data
+    deactivate MCPS
+    LLM->>LLM: Process Request & Generate Code
+    LLM->>MCPS: Request Tool Execution (e.g., "Write code to file Y")
+    activate MCPS
+    MCPS->>Tools: Write File
+    activate Tools
+    Tools-->>MCPS: Confirmation
+    deactivate Tools
+    MCPS-->>LLM: Confirmation
+    deactivate MCPS
+    LLM-->>IDE: Code Generated
+    deactivate LLM
+
+    IDE->>Runtime: Execute Code
+    activate Runtime
+    Runtime-->>IDE: Execution Error! (e.g., "Syntax Error")
+    deactivate Runtime
+
+    IDE->>LLM: Report Error & Request Correction (with error details & context)
+    activate LLM
+    LLM->>LLM: Analyze Error & Propose Correction
+    LLM->>MCPS: Request Tool Execution (e.g., "Modify file Y with correction")
+    activate MCPS
+    MCPS->>Tools: Modify File
+    activate Tools
+    Tools-->>MCPS: Confirmation
+    deactivate Tools
+    MCPS-->>LLM: Confirmation
+    deactivate MCPS
+    LLM-->>IDE: Code Corrected
+    deactivate LLM
