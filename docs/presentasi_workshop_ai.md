@@ -19,7 +19,7 @@
 
 ### Screenshot Era Copy-Paste
 
-![Screenshot Era Copy-Paste](assets/screenshot_era_copy_paste.png)
+![ChatGPT](assets/copas-chatgpt.png)
 
 ---
 
@@ -46,7 +46,7 @@
 
 ### Screenshot Integrasi IDE
 
-![Screenshot Integrasi IDE](assets/screenshot_integrasi_ide.png)
+![Screenshot Integrasi IDE](assets/ide-extension.png)
 
 ---
 
@@ -64,9 +64,15 @@
 
 ---
 
-### Screenshot CLI Assistant
+### Screenshot CLI Assistant [1]
 
-![Screenshot CLI Assistant](assets/screenshot_cli_assistant.png)
+![CLI Prompt](assets/cli-prompt.png)
+
+---
+
+### Screenshot CLI Assistant [2]
+
+![CLI Prompt](assets/cli-result.png)
 
 ---
 
