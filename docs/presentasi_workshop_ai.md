@@ -82,7 +82,7 @@
 
 ### Model V dalam Software Engineering
 
-![V-Model Diagram](assets/v_model.png)
+![V-Model Diagram](assets/v_model.svg)
 
 ---
 
